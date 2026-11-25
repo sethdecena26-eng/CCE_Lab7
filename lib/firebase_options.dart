@@ -57,7 +57,6 @@ class DefaultFirebaseOptions {
     projectId: 'decena-student-app',
     storageBucket: 'decena-student-app.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBHmrcws_kPgrUKnlPfgLi8kkcnTLXOHNM',
     appId: '1:250485610517:ios:2c0da926683aee76c0961c',
@@ -66,7 +65,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'decena-student-app.firebasestorage.app',
     iosBundleId: 'com.example.decenaLabact7',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBHmrcws_kPgrUKnlPfgLi8kkcnTLXOHNM',
     appId: '1:250485610517:ios:2c0da926683aee76c0961c',

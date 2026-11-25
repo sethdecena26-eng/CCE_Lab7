@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'student_crud_page.dart';
 
 class DashboardPage extends StatelessWidget {
   final String username;
@@ -15,8 +16,20 @@ class DashboardPage extends StatelessWidget {
         title: const Text('Dashboard'),
       ),
       body: ListView(
+        
         padding: const EdgeInsets.all(24),
-        children: [
+        children: [const SizedBox(height: 20),
+ElevatedButton.icon(
+  onPressed: () {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => StudentCrudPage(),
+      ),
+    );
+  },
+  icon: const Icon(Icons.storage),
+  label: const Text('Manage Student Records'),
+),
           const Icon(
             Icons.dashboard,
             size: 80,
